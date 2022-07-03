@@ -1,5 +1,5 @@
 # pub-bot
-A discord-bot that lets user subscribe and **pub**lish to particular topics.
+A discord-bot that lets users subscribe and **pub**lish to particular topics.
 
 This bot was written using [the Javacord framework](https://github.com/Javacord/Javacord).
 
