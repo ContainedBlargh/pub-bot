@@ -320,6 +320,10 @@ object Main {
             val server = it.server
             setupForServer(server)
         }
-        println("https://discord.com/api/oauth2/authorize?client_id=992887370988933191&permissions=8&scope=applications.commands%20bot")
+        println(
+            "https://discord.com/api/oauth2/authorize" +
+                    "?client_id=992887370988933191&permissions=${Config.permissions}" +
+                    "&scope=applications.commands%20bot"
+        )
     }
 }
