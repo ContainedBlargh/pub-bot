@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../ITU/2018-adpro-fall-group-28/080-parsing" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ITU/2018-adpro-fall-group-28/100-modaic-evaluators" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ITU/2018-adpro-fall-group-28/120-project-2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ITU/2018-adpro-fall-group-28/150-exam" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ScalaSbtSettings">
+    <option name="customVMEnabled" value="true" />
+    <option name="customVMPath" value="C:/Program Files/Java/jdk1.8.0_162" />
+  </component>
+</project>
