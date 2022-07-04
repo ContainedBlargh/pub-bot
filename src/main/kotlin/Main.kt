@@ -168,9 +168,11 @@ object Main {
         val topic = Topic(topicId.value, topicName, server.id)
         val toNotify = topic.subscribers
             .mapNotNull { sub ->
-                server.members.firstOrNull { it.id == sub.userId }
+                discordApi.getUserById(sub.userId)
             }
-            .filterNot { it.id != user.id }
+            .map { it.join() }
+            .filter { it.id != user.id }
+        println("Subscribers to notify: ${toNotify.joinToString(", ") { it.name }}")
         val sender = MessageBuilder()
             .apply {
                 toNotify.forEach { append(it); append(" ") }

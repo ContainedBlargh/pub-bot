@@ -7,7 +7,7 @@ import java.sql.Connection
 
 object Storage {
     fun connect() {
-        Database.connect("jdbc:sqlite:/data.db", "org.sqlite.JDBC")
+        Database.connect("jdbc:sqlite:./data.db", "org.sqlite.JDBC")
         TransactionManager.manager.defaultIsolationLevel = Connection.TRANSACTION_SERIALIZABLE
         transaction {
             SchemaUtils.createMissingTablesAndColumns(Topics, Subscribers)
